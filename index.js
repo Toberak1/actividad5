@@ -1,8 +1,11 @@
 function ejecutarActividad() {
-    var numero = parseInt(prompt("Ingrese un número:"));
-    var texto = prompt("Ingrese un texto:");
-    
-    for (var i = 0; i < numero; i++) {
-        alert(texto);
+    var palabra = prompt("Ingrese la palabra: Argentina");
+    var numero = parseInt(prompt("Ingrese un número: 2023"));
+
+    if (palabra === "Argentina" && numero === 2023) {
+        alert("¡Palabra y número ingresados correctamente!");
+        
+    } else {
+        alert("Palabra y número incorrectos. Inténtalo de nuevo.");
     }
 }
